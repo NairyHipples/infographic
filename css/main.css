@@ -23,14 +23,15 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media (min-width: 992px){.container{width:650px;}}
 @media (min-width: 1200px){.container{width: 1170px;}}
 @media (min-width: 992px){.container{width: 970px;}}
+
 #dyingTrend {
-  max-width:600px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -53,6 +54,30 @@ li > a:hover {
 .navbar-header {
 
 }
+
+.thumbnail {
+  background-color: #5E5E5E;
+  color: #FFF;
+  border-radius: 0px;
+  border: 0px;
+  width: 300px;
+  margin: 10px;
+}
+
+strong {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: #FFCC00
+}
+
+.titleText {
+  background-color: #d4605e;
+  padding: 10px;
+  border: 3px dotted #9E4947;
+  text-align: center;
+}
+
+
 
 /* preferred hover background-color: #FFD919; */
 
