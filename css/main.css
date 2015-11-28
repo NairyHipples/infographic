@@ -19,16 +19,12 @@ a {
 h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 50px;
-  color: #FFF;
 }
 
 p {
   font-size: 16px;
 }
 
-@media (min-width: 992px){.container{width:650px;}}
-@media (min-width: 1200px){.container{width: 1170px;}}
-@media (min-width: 992px){.container{width: 970px;}}
 
 #dyingTrend {
   width: 100%;
@@ -55,13 +51,12 @@ li > a:hover {
 
 }
 
-.thumbnail {
-  background-color: #5E5E5E;
-  color: #FFF;
-  border-radius: 0px;
-  border: 0px;
-  width: 300px;
-  margin: 10px;
+
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 strong {
@@ -70,14 +65,42 @@ strong {
   color: #FFCC00
 }
 
-.titleText {
+.titleTextTop {
   background-color: #d4605e;
   padding: 10px;
   border: 3px dotted #9E4947;
   text-align: center;
 }
 
+.albumDiv {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #5E5E5E;
+  border: 1px solid #525252;
+}
 
+
+.titleTextBottom1 {
+  background-color: #25CC6C;
+  padding: 10px;
+  border: 3px dotted #19733F;
+  color: #000;
+}
+
+.titleTextBottom2 {
+  background-color: #F2C200;
+  padding: 10px;
+  border: 3px dotted #9E7F00;
+  color: #000;
+}
+
+.container {
+  text-align: center;
+}
+
+@media (min-width: 1200px){.container{width: 1170px;}}
+@media (min-width: 992px){.container{width: 970px;}}
+@media (max-width: 768px){.container{width: 450px;}}
 
 /* preferred hover background-color: #FFD919; */
 
