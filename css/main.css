@@ -1,0 +1,61 @@
+body {
+  background: -webkit-linear-gradient(90deg, #383838, #525252, #383838); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg, #383838, #525252, #383838); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg, #383838, #525252, #383838); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg, #383838, #525252, #383838); /* Standard syntax (must be last) */
+  font-family: 'Trocchi', serif;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+}
+a {
+  color: #000;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  color: #FFF;
+}
+
+p {
+  font-size: 18px;
+}
+
+@media (min-width: 992px){.container{width:650px;}}
+@media (min-width: 1200px){.container{width: 1170px;}}
+@media (min-width: 992px){.container{width: 970px;}}
+#dyingTrend {
+  max-width:600px;
+  margin: 0 auto;
+}
+
+.dyingTrend-bg {
+  width: 100%;
+  background-color: #5E5E5E;
+  padding: 0px 20px;
+}
+
+.navbar {
+  background-color: #FFCC00;
+  border-radius: 0px;
+  border: 0px;
+}
+
+li > a:hover {
+  color: #000;
+}
+
+.navbar-header {
+
+}
+
+/* preferred hover background-color: #FFD919; */
+
+/*********************
+     MY SECTIONS
+*********************/
