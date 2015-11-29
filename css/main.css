@@ -21,6 +21,42 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-family: 'Trocchi', serif;
+  font-size: 40px;
+}
+
+
+
+.saleDiv {
+  color: #FFF;
+  text-shadow: 2px 2px #000;
+}
+.digitalDiv {
+  color: #FFCC00;
+  text-shadow: 2px 2px #000;
+}
+.musicDiv {
+  color: #FFF;
+  text-shadow: 2px 2px #000;
+}
+
+.highLight {
+  background-color: #FFCC00;
+  display: inline;
+  color: #000;
+  font-family: 'Abril Fatface', cursive;
+  text-shadow: none;
+}
+
+.highLight-inverted {
+  background-color: #000;
+  display: block;
+  color: #FFF;
+  font-family: 'Abril Fatface', cursive;
+  text-shadow: none;
+}
+
 p {
   font-size: 16px;
 }
@@ -31,11 +67,17 @@ p {
   margin: 0 auto;
 }
 
-.dyingTrend-bg {
+.dying-bg {
   width: 100%;
   background-color: #5E5E5E;
   padding: 0px 20px;
 }
+
+/*.sales-bg {
+  width: 100%;
+  background-color: #5E5E5E;
+  padding: 0px 20px;
+}*/
 
 .navbar {
   background-color: #FFCC00;
@@ -52,6 +94,7 @@ li > a:hover {
 }
 
 
+
 img {
   display: block;
   width: 100%;
@@ -65,29 +108,16 @@ strong {
   color: #FFCC00
 }
 
-.titleTextTop {
-  background-color: #d4605e;
-  padding: 10px;
-  border: 3px dotted #9E4947;
-  text-align: center;
-}
+
 
 .albumDiv {
   margin-bottom: 40px;
-  padding: 20px;
+  padding: 10px;
   background-color: #5E5E5E;
   border: 1px solid #525252;
 }
 
-
-.titleTextBottom1 {
-  background-color: #25CC6C;
-  padding: 10px;
-  border: 3px dotted #19733F;
-  color: #000;
-}
-
-.titleTextBottom2 {
+.textArea {
   background-color: #F2C200;
   padding: 10px;
   border: 3px dotted #9E7F00;
