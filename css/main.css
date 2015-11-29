@@ -47,14 +47,16 @@ h2 {
   color: #000;
   font-family: 'Abril Fatface', cursive;
   text-shadow: none;
+  font-size: 50px;
 }
 
 .highLight-inverted {
   background-color: #000;
   display: block;
   color: #FFF;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   text-shadow: none;
+  font-size: 50px;
 }
 
 .highLight-white {
