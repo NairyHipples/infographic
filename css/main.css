@@ -1,3 +1,6 @@
+/********************
+      GENERAL
+********************/
 body {
   background: -webkit-linear-gradient(90deg, #383838, #525252, #383838); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(90deg, #383838, #525252, #383838); /* For Opera 11.1 to 12.0 */
@@ -6,28 +9,67 @@ body {
   font-family: 'Trocchi', serif;
   color: #fff;
 }
-
 header {
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 50px;
 }
-a {
-  color: #000;
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
-
 h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 50px;
 }
-
 h2 {
   font-family: 'Trocchi', serif;
   font-size: 40px;
 }
-
-
-
+a {
+  color: #000;
+}
+p {
+  font-size: 20px;
+}
+strong {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: #FFCC00
+}
+li {
+  border-bottom: 2px solid #000;
+}
+li > a:hover {
+  color: #000;
+}
+/*************************
+       SECTION ID
+*************************/
+#dyingTrend {
+  width: 100%;
+  margin: 0 auto;
+}
+#digitalEra {
+  width: 100%;
+  margin: 0 auto;
+}
+/******************************************
+  CLASSES: NAVIGATION & CONTAINER OVERRIDE
+******************************************/
+.navbar {
+  background-color: #FFCC00;
+  border-radius: 0px;
+  border: 0px;
+}
+.container {
+  text-align: center;
+}
+/*************************
+   CLASSES: VARIOUS TEXT
+**************************/
 .saleDiv {
   color: #FFF;
   text-shadow: 2px 2px #000;
@@ -40,7 +82,9 @@ h2 {
   color: #FFF;
   text-shadow: 2px 2px #000;
 }
-
+/**************************************
+    CLASSES: HIGHLIGHTS & BACKGROUNDS
+***************************************/
 .highLight {
   background-color: #FFCC00;
   display: inline;
@@ -49,16 +93,14 @@ h2 {
   text-shadow: none;
   font-size: 50px;
 }
-
 .highLight-inverted {
   background-color: #000;
   display: block;
   color: #FFF;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   text-shadow: none;
   font-size: 50px;
 }
-
 .highLight-white {
   background-color: #FFF;
   display: block;
@@ -66,86 +108,26 @@ h2 {
   font-family: 'Abril Fatface', cursive;
   text-shadow: none;
 }
-
-p {
-  font-size: 20px;
-}
-
-
-#dyingTrend {
-  width: 100%;
-  margin: 0 auto;
-}
-
 .dying-bg {
   width: 100%;
   background-color: #000;
   padding: 0px 20px;
 }
-
-/*.sales-bg {
-  width: 100%;
-  background-color: #5E5E5E;
-  padding: 0px 20px;
-}*/
-
-.navbar {
-  background-color: #FFCC00;
-  border-radius: 0px;
-  border: 0px;
-}
-li {
-  border-bottom: 2px solid #000;
-}
-li > a:hover {
-  color: #000;
-}
-
-.navbar-header {
-
-}
-
-
-
-img {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 10px;
-}
-
-strong {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
-  color: #FFCC00
-}
-
-
-
 .albumDiv {
   margin-bottom: 40px;
   padding: 10px;
   background-color: #5E5E5E;
   border: 1px solid #525252;
 }
-
 .textArea {
   background-color: #F2C200;
   padding: 10px;
   border: 3px dotted #9E7F00;
   color: #000;
 }
-
-.container {
-  text-align: center;
-}
-
+/*********************************
+          MEDIA QUERIES
+*********************************/
 @media (min-width: 1200px){.container{width: 1170px;}}
 @media (min-width: 992px){.container{width: 970px;}}
 @media (max-width: 768px){.container{width: 450px;}}
-
-/* preferred hover background-color: #FFD919; */
-
-/*********************
-     MY SECTIONS
-*********************/
