@@ -2,10 +2,7 @@
       GENERAL
 ********************/
 body {
-  background: -webkit-linear-gradient(90deg, #383838, #525252, #383838); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(90deg, #383838, #525252, #383838); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(90deg, #383838, #525252, #383838); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(90deg, #383838, #525252, #383838); /* Standard syntax (must be last) */
+  background-color: #383838;
   font-family: 'Trocchi', serif;
   color: #fff;
 }
@@ -61,7 +58,6 @@ li > a:hover {
 ******************************************/
 .navbar {
   background-color: #FFCC00;
-  border-radius: 0px;
   border: 0px;
 }
 .container {
@@ -72,15 +68,12 @@ li > a:hover {
 **************************/
 .saleDiv {
   color: #FFF;
-  text-shadow: 2px 2px #000;
 }
 .digitalDiv {
   color: #FFCC00;
-  text-shadow: 2px 2px #000;
 }
 .musicDiv {
   color: #FFF;
-  text-shadow: 2px 2px #000;
 }
 /**************************************
     CLASSES: HIGHLIGHTS & BACKGROUNDS
@@ -90,7 +83,6 @@ li > a:hover {
   display: inline;
   color: #000;
   font-family: 'Abril Fatface', cursive;
-  text-shadow: none;
   font-size: 50px;
 }
 .highLight-inverted {
@@ -98,7 +90,6 @@ li > a:hover {
   display: block;
   color: #FFF;
   font-family: 'Abril Fatface', cursive;
-  text-shadow: none;
   font-size: 50px;
 }
 .highLight-white {
@@ -106,7 +97,6 @@ li > a:hover {
   display: block;
   color: #000;
   font-family: 'Abril Fatface', cursive;
-  text-shadow: none;
 }
 .dying-bg {
   width: 100%;
@@ -128,6 +118,6 @@ li > a:hover {
 /*********************************
           MEDIA QUERIES
 *********************************/
-@media (min-width: 1200px){.container{width: 1170px;}}
-@media (min-width: 992px){.container{width: 970px;}}
-@media (max-width: 768px){.container{width: 450px;}}
+  /*@media (min-width: 1200px){.container{width: 1170px;}}
+  @media (min-width: 992px){.container{width: 970px;}}
+  @media (max-width: 768px){.container{width: 450px;}}*/
