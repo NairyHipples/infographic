@@ -57,8 +57,16 @@ h2 {
   text-shadow: none;
 }
 
+.highLight-white {
+  background-color: #FFF;
+  display: block;
+  color: #000;
+  font-family: 'Abril Fatface', cursive;
+  text-shadow: none;
+}
+
 p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 
@@ -69,7 +77,7 @@ p {
 
 .dying-bg {
   width: 100%;
-  background-color: #5E5E5E;
+  background-color: #000;
   padding: 0px 20px;
 }
 
@@ -84,7 +92,9 @@ p {
   border-radius: 0px;
   border: 0px;
 }
-
+li {
+  border-bottom: 2px solid #000;
+}
 li > a:hover {
   color: #000;
 }
