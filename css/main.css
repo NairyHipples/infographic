@@ -42,6 +42,10 @@ li {
 li > a:hover {
   color: #000;
 }
+
+button {
+  border: none;
+}
 /*************************
        SECTION ID
 *************************/
@@ -66,17 +70,14 @@ li > a:hover {
 /*************************
    CLASSES: VARIOUS TEXT
 **************************/
-.saleDiv {
+.whiteTextDiv {
   color: #FFF;
 }
-.digitalDiv {
+.yellowTextDiv {
   color: #FFCC00;
 }
-.musicDiv {
-  color: #FFF;
-}
 /**************************************
-    CLASSES: HIGHLIGHTS & BACKGROUNDS
+         CLASSES: TEXT-HIGHLIGHTS
 ***************************************/
 .highLight {
   background-color: #FFCC00;
@@ -98,12 +99,15 @@ li > a:hover {
   color: #000;
   font-family: 'Abril Fatface', cursive;
 }
-.dying-bg {
+/**************************************
+         CLASSES: BACKGROUNDS
+***************************************/
+.black-bg {
   width: 100%;
   background-color: #000;
   padding: 0px 20px;
 }
-.albumDiv {
+.grey-bg {
   margin-bottom: 40px;
   padding: 10px;
   background-color: #5E5E5E;
@@ -115,8 +119,14 @@ li > a:hover {
   border: 3px dotted #9E7F00;
   color: #000;
 }
+.spotifyDiv {
+  margin-top: 40px;
+}
+.initiallyHidden {
+  display: none;
+}
 /*********************************
-          MEDIA QUERIES
+          MEDIA QUERIES !!! removed because the validator cried about it !!!
 *********************************/
   /*@media (min-width: 1200px){.container{width: 1170px;}}
   @media (min-width: 992px){.container{width: 970px;}}
