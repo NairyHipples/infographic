@@ -12,13 +12,15 @@ header {
   top: 0px;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 50px;
+  z-index: 100;
 }
 main {
   margin: 70px auto
 }
 img {
   display: block;
-  width: 100%;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
   padding-bottom: 10px;
 }
@@ -122,7 +124,7 @@ button {
 }
 .textArea {
   background-color: #F2C200;
-  padding: 10px;
+  padding: 5px;
   border: 3px dotted #9E7F00;
   color: #000;
 }
